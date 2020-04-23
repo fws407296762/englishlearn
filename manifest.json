@@ -1,0 +1,18 @@
+{
+    "manifest_version":2,
+    "name":"英语练习",
+    "version":"1.0.0",
+    "description":"边上班边学习英语",
+    "permissions":[
+        "contextMenus",
+        "tabs",
+        "notifications",
+        "webRequest",
+        "webRequestBlocking",
+        "storage"
+    ],
+    "homepage_url":"https://www.baidu.com",
+    "chrome_url_overrides":{
+        "newtab":"views/setting.html"
+    }
+}
